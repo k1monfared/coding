@@ -5,7 +5,8 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 import datetime
 
-llm = OpenAI(temperature=0, max_tokens=1000)  # type: ignore
+llm = OpenAI(model="text-davinci-003", temperature=0, max_tokens=1000)  # type: ignore
+
 prompt = PromptTemplate(
     input_variables=["prompt"],
     template="""{prompt}""",
