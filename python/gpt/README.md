@@ -1,5 +1,5 @@
 # About
-This is a wrapper for ChatGPT for python that works in terminal. The added benefit here is that you can create features as you wish, for example, here I save all the coversations in log files. I'm saving all the logs in `~/drafts/chatgpt_logs` folder. You can change it to somewhere else, it is in the `log_conversation()` function in `logged_chat.py` file.
+This is a wrapper for GPT for python that works in terminal. The added benefit here is that you can create features as you wish, for example, here I save all the coversations in log files. I'm saving all the logs in `~/drafts/chatgpt_logs` folder. You can change it to somewhere else, it is in the `log_conversation()` function in `logged_chat.py` file.
 
 You'll need an account with openai and you'll need to generate an api key. Unfortunately, they'll require a real phone number (not voip) to verify the account. I do not recommend this, do it at your own risk!
 
