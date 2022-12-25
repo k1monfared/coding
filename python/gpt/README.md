@@ -17,7 +17,7 @@ This is a wrapper for ChatGPT for python that works in terminal. The added benef
     export OPENAI_API_KEY="your_api_key"
     ```
 
-3. create an alias for the python script in your `~/.bashrc`.
+3. Download this folder and create an alias for the python script in your `~/.bashrc`.
     - I use conda for virtual environment and package management and I've installed the package in an env called `gpt`. So I'll have to activate that env first and then call the script.  
 
     ```
@@ -36,3 +36,5 @@ This is a wrapper for ChatGPT for python that works in terminal. The added benef
     ```
     gpt
     ```
+
+6. End conversations: if you feed an empty input (just press enter) the conversation will end.
