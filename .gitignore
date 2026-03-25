@@ -1,2 +1,5 @@
 *.log
 *.private
+*~
+.ipynb_checkpoints/
+__pycache__/
